@@ -1,0 +1,9 @@
+1. npm i path body-parser express nodemon "THEN CLICK ENTER"
+
+2. nodemon page.js "THEN CLICK ENTER"
+
+3. Open your browser and in the search bar , type
+   
+   localhost:3400 "THEN CLICK ENTER"
+
+follow all the above instructions to start this project 
