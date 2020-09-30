@@ -43,13 +43,13 @@ header {
   text-align: center;
   transform: translate(-50%, -50%);
   letter-spacing: 0.5rem;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .banner-content {
   font-size: 3.2rem;
   font-family: var(--mainHeading);
-  color: #251C18;
+  color: black;
   animation: slideLeft 5s ease-in-out 1;
 }
 
@@ -128,7 +128,7 @@ header {
   }
 
   75% {
-    transform: translateX(-50px);
+    transform: translateX(-60px);
   }
 
   100% {
@@ -162,20 +162,20 @@ header {
 .img-footer {
   padding: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .title-text {
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   color: #926C4F;
   margin-bottom: 3rem;
 }
 
 .team-img {
   background: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
 }
 
@@ -184,8 +184,8 @@ header {
 }
 
 .footer-info h5 {
-  color: rosybrown;
-  font-weight: bold;
+  color: brown;
+  font-weight: bolder;
   margin: 10px 0;
   text-transform: uppercase;
 }
